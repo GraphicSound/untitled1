@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load staticfiles %}
+    {% load crispy_forms_tags %}
+
+    <title>yuhao's personal website</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/fonts.css' %}"/>
+
+    <script type="text/javascript" src="{% static 'jquery/jquery-1.9.0.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/my.js' %}"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/carbon.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/public.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/bootstrap-theme.min.css' %}"/>
+    <script type="text/javascript" src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'jquery/jquery.slimscroll.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/background.js' %}"></script>
+</head>
+<body class="w-ui vertical" data-pagename="home">
+
+<div class="hidden user-id">{{ user_id }}</div>
+
+<div id="panels">
+    <div id="features_panel" class="section inner active" data-theme="light" data-title="FEATURES">
+        <div class="section-header feature-header">
+            <div class="content-wrap">
+                <div class="features">
+                    <div class="feature feature-themes active" data-target="feature-themes" data-feature="choose-theme">
+                        <span class="glyphicon glyphicon-inbox"></span>
+                        <span class="name">推送中心</span>
+                    </div>
+
+                    <div class="feature feature-blog" data-target="feature-blog" data-feature="blogging">
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <span class="name">添加作品</span>
+                    </div>
+
+                    <div class="feature feature-apps" data-target="feature-apps" data-feature="apps">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="name">添加笔记</span>
+                    </div>
+
+                    <div class="feature feature-foot" data-target="feature-foot" data-feature="foot">
+                        <span class="glyphicon glyphicon-film"></span>
+                        <span class="name">添加经历</span>
+                    </div>
+
+                    <div class="feature feature-drag" data-target="feature-drag" data-feature="drag-drop">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span class="name">我的主页</span>
+                    </div>
+
+                    <div class="feature-tag"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="inner-content-div">
+            <div class="section-footer">
+                <div class="content-wrap">
+                    <div class="features-detail">
+
+                        <div class="feature feature-themes active">
+                        </div>
+
+                        <div class="feature feature-blog">
+                            <div class="showcase-form">
+                                {% crispy NewShowcaseForm %}
+                            </div>
+                        </div>
+
+                        <div class="feature feature-apps">
+                            <div class="showcase-form">
+                                {% crispy NewNoteForm %}
+                            </div>
+                        </div>
+
+                        <div class="feature feature-foot">
+                        </div>
+
+                        <div class="feature feature-drag">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+   background_page_ready();
+</script>
+
+</body>
+</html>

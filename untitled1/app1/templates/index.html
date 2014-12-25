@@ -1,0 +1,75 @@
+{% extends 'template.html' %}
+
+{% block mainContent %}
+
+    <div class="main-content">
+        <div class="push">
+            <div class="container main wf">
+                <section id="HomeSlideshow" class="hero_slideshow">
+                    <div class="loader"><i></i></div>
+                    <div class="slide" data-subtitle="Greetings"
+                         data-title="Welcome to Columbia’s home in Midtown Manhattan"
+                         data-href="http://www.columbiaclub.org/about/mission/">
+                        <img class="asset" src="http://www.columbiaclub.org/wp-content/uploads/home_01.jpg"
+                             alt="Welcome to Columbia’s home in Midtown Manhattan" onload="assetLoaded(this)"/>
+                    </div>
+
+                    <div class="fade"></div>
+                </section>
+
+                <section class="page grid ">
+                    <div class="wrapper just events latest-job">
+                        <a href="#">
+                            <div class="event anim150" style="padding-top: 30%;">
+                                <div class="img_wrapper loaded" style="padding-top: 30%;">
+                                    <img class="avatar" src="#" style="border-radius: 50%; width: 70px; margin: 10px;"/>
+                                    <span class="realname"></span>
+                                    <span class="info"></span>
+                                </div>
+
+                                <div class="lower" style="top: 30%;">
+                                    <h4 class="title"></h4>
+                                    <div class="date introduction"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="wrapper just events latest-note">
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="aa">
+            <div class="wrapper just">
+                <nav class="ib ns">
+                    <ul>
+                        <li id="menu-item-105"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105">
+                            <a href="#"><span>关于我们</span></a>
+                        </li>
+                        <li id="menu-item-104"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104">
+                            <a href="#"><span>最新消息</span></a>
+                        </li>
+                        <li id="menu-item-106"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106">
+                            <a href="#"><span>FAQ</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <span class="ib legal">
+                    &copy; 2014 GraphicSound Inc.<span> Site by <a class="anim150" href="http://iyuhao.com/" target="_blank">Yuhao</a></span>
+                </span>
+            </div>
+            <div id="BackToTop">Back to Top</div>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+       index_page_ready();
+    </script>
+
+{% endblock %}

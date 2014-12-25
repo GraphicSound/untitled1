@@ -1,0 +1,39 @@
+{% extends 'template.html' %}
+
+{% block mainContent %}
+
+    <div class="main-content">
+        <form class="form-horizontal" role="form" action="." method="post">
+            {% csrf_token %}
+
+            {{ form.media }}
+            {% if form.non_field_errors %}
+                <div class="alert alert-error">
+                    <ul>
+                        {% for error in form.non_field_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            {% for field in form.visible_fields %}
+                <div class="control-group {{ field.html_name }} {% if field.errors %}error{% endif %}">
+                    <div class="controls">
+                        {{ field }}
+                        {% if field.errors %}<span class="help-inline">{{ field.errors.as_text }}</span>{% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% for field in form.hidden_fields %}
+                {{ field }}
+            {% endfor %}
+
+            <div class="form-actions">
+                <button class="btn btn-lg btn-success btn-block" type="submit">确认</button>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

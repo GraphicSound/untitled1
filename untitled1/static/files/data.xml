@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>wenteng.zhang</Author>
+  <LastAuthor>wenteng.zhang</LastAuthor>
+  <Created>2014-12-10T11:07:18Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>20235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Asset</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Property</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Location</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Theme</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Denom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Wheel of Fortune</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2089</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MegaBucks</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6701</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Life of Luxury</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1203</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spin 2 Win</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4578</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8210</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lucky Big Wheel</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">7865</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5807</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Triple Strike Diamond Ace Bonus</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">7867</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1201</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spin 2 Win</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Press Your Luck</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9876</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aruze Blackjack</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9877</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4303</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Triple Strike Diamond</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6701</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bally Roulette</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10118</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5501</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aruze Roulette</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10121</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Game of Life</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10122</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venetian</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Game of Life</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10210</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5502</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LT Gaming Baccarat</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10311</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Palazzo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4302</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Wheel of Fortune</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

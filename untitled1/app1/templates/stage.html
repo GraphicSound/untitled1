@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load staticfiles %}
+    <title>yuhao's personal website</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/fonts.css' %}"/>
+
+    <script type="text/javascript" src="{% static 'jquery/jquery-1.9.0.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/my.js' %}"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/carbon.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/public.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/bootstrap-theme.min.css' %}"/>
+    <script type="text/javascript" src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'jquery/jquery.slimscroll.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/yuhao.js' %}"></script>
+</head>
+<body class="w-ui vertical" data-pagename="home">
+
+<div id="panels">
+    <div id="header_panel" class="section header" data-theme="dark" data-title="HOME">
+        <div class="slideshow-bg">
+            <div class="bg-image">
+            </div>
+        </div>
+
+        <div class="hidden user-id">{{ user_id }}</div>
+
+        <!--<div class="logo w-icon-li-weebly-logo"></div>-->
+        <div class="content">
+
+            <div class="title">
+                <h1 class="self-realname">张雨欣，</h1>
+
+                <h2 class="self-introduction">Be the creator of your own life</h2>
+                <a id="videolink" onclick="scrollDown()">
+                    <span class="glyphicon glyphicon-play-circle"></span>
+
+                    <p>作品 | 笔记</p>
+                </a>
+            </div>
+
+            <div class="signup">
+                <h2>专业技术</h2>
+                <h4 class="self-field">舞蹈，钢琴，唱歌</h4>
+                <h2>特长</h2>
+                <h4 class="self-speciality">书法，画画</h4>
+            </div>
+
+        </div>
+
+        <div class="pin-bottom">
+        <span class="show-features">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+        </div>
+    </div>
+
+    <div id="features_panel" class="section inner" data-theme="light" data-title="FEATURES">
+        <div class="section-header feature-header">
+            <div class="content-wrap">
+                <div class="features">
+                    <div class="feature feature-themes active" data-target="feature-themes" data-feature="choose-theme">
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <span class="name">作品</span>
+                    </div>
+
+                    <div class="feature feature-blog" data-target="feature-blog" data-feature="blogging">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="name">笔记</span>
+                    </div>
+
+                    <div class="feature feature-apps" data-target="feature-apps" data-feature="apps">
+                        <span class="glyphicon glyphicon-film"></span>
+                        <span class="name">经历</span>
+                    </div>
+
+                    <div class="feature feature-drag" data-target="feature-drag" data-feature="drag-drop">
+                        <span class="glyphicon glyphicon-heart-empty"></span>
+                        <span class="name">其他</span>
+                    </div>
+
+                    <div class="feature-tag"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="inner-content-div">
+            <div class="section-footer">
+                <div class="content-wrap">
+                    <div class="features-detail">
+
+                        <div class="feature feature-themes active">
+                            <div class="timeline animated">
+                                <div class="timeline-row row-text">
+                                    <div class="timeline-time">
+                                    </div>
+                                    <div class="timeline-icon">
+                                        <div class="bg-primary">
+                                            <i class="fa fa-pencil"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel timeline-content">
+                                        <div class="panel-body">
+                                            <h2 class="row-title">
+                                                This is a title for this timeline post
+                                            </h2>
+
+                                            <p class="row-content">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+                                                hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+                                                vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+                                                laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+                                                nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="timeline-row row-image">
+                                    <div class="timeline-time">
+                                    </div>
+                                    <div class="timeline-icon">
+                                        <div class="bg-primary">
+                                            <i class="fa fa-pencil"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel timeline-content">
+                                        <div class="panel-body">
+                                            <h2 class="row-title">
+                                                This is a title for this timeline post
+                                            </h2>
+                                            <img class="img-responsive"
+                                                 src="http://pic.qiushibaike.com/system/pictures/9640/96400619/medium/app96400619.jpg"/>
+
+                                            <p class="row-content">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+                                                hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+                                                vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+                                                laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+                                                nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-row row-video">
+                                    <div class="timeline-time">
+                                        <small>Oct 12</small>
+                                        1:14 PM
+                                    </div>
+                                    <div class="timeline-icon">
+                                        <div class="bg-primary">
+                                            <i class="fa fa-video-camera"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel timeline-content">
+                                        <div class="panel-body">
+                                            <h2>
+                                                This is a title for this timeline post
+                                            </h2>
+
+{#                                            <div class="video-container">#}
+{#                                                <iframe allowfullscreen="" frameborder="0" mozallowfullscreen=""#}
+{#                                                        src="https://player.vimeo.com/video/16202331?title=0&amp;byline=0&amp;portrait=0"#}
+{#                                                        webkitallowfullscreen=""></iframe>#}
+{#                                            </div>#}
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+                                                hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+                                                vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+                                                laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+                                                nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature feature-blog blog-card">
+                            <div class="card col-lg-2">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading"></div>
+                                    <div class="panel-body">
+                                        <h5 class="card-add-time"></h5>
+                                        <img class="card-img" src="#">
+                                        <br><!-- why this one is not working -->
+                                        <br>
+                                        <p class="panel-content">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+   stage_page_ready();
+</script>
+
+</body>
+</html>
