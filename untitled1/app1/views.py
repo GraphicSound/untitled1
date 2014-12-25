@@ -19,6 +19,7 @@ def execute_sql(sql):
     cursor.execute(sql)
     print sql
     print sql
+    print sql
     connection.commit()
 
 def query_sql(sql):
